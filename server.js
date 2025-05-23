@@ -22,7 +22,7 @@ app.use(express.urlencoded({ extended: true }));
 
 app.use('/uploads', express.static('uploads'));
 
-const allowedOrigin = process.env.CLIENT_URL || "http://localhost:5173";
+const allowedOrigin = process.env.CLIENT_URL || "https://ping-client-git-master-shivamparkars-projects.vercel.app";
 
 
 app.use(cors({
